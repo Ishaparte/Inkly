@@ -1,0 +1,124 @@
+.navbar {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.logo {
+  width: 90px;
+}
+
+.nav-a {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.navbar a {
+  color: brown;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: brown;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 100px;
+  transition: background-color 0.3s ease, font-size 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: brown;
+  font-size: 18px;
+  border: solid brown 1px;
+}
+
+.nav-search {
+  position: relative;
+}
+
+.nav-search input {
+  padding: 0.4rem 0.8rem 0.4rem 2rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+  outline: none;
+  font-size: 0.9rem;
+  width: 160px;
+  transition: all 0.3s ease;
+}
+
+.nav-search input:focus {
+  border-color: #8b3e3e;
+  box-shadow: 0 0 5px rgba(139, 62, 62, 0.3);
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #8b3e3e;
+  font-size: 16px;
+}
+
+.profile-icon{
+  width: 40px;
+}
+
+.profile-icon:hover{
+  cursor: pointer;
+}
+
+
+
+.hamburger-icon:hover{
+  cursor: pointer;
+  
+}
+.hamburger-icon{
+  color: brown;
+  display: none;
+}
+
+.nav-hamburger-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  right: 0; 
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 30px;
+  border-radius: 8px;
+  gap: 5px;
+  display: none;
+}
+.nav-hamburger-content a {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  
+}
+
+@media (max-width: 768px) {
+  .nav-a {
+    display: none;
+  }
+  .nav-search {
+    display: none;
+  }
+  .hamburger-icon{
+    display: block;
+    font-size: 24px;
+  }
+}

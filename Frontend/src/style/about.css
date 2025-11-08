@@ -1,0 +1,37 @@
+/* src/style/about.css */
+
+.about{
+      background-image: url("bg2.png");
+    background-repeat: repeat;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 2rem;
+  background-color: #fffdfc;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(139, 62, 62, 0.1);
+  color: #6e1f1f;
+}
+
+.about-container h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #8b3e3e;
+  text-align: center;
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #a0522d;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}

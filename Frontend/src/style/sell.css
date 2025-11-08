@@ -1,0 +1,62 @@
+
+
+
+.seller-dashboard {
+  background-color: #fff6f2;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #5c2b29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seller-dashboard h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #5c2b29;
+}
+
+.book-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.book-form input {
+  padding: 0.9rem 1rem;
+  border: 1px solid #e0d7d3;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #fffaf9;
+  transition: border 0.3s ease;
+}
+
+.book-form input:focus {
+  outline: none;
+  border-color: #c74b41;
+}
+
+/* Submit button with red theme */
+.book-form button {
+  padding: 0.9rem;
+  font-size: 1rem;
+  background-color: #c74b41;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-form button:hover {
+  background-color: #a93c34;
+}
