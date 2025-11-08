@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar playfair-display">
-      <img className="logo" src="./logo1.png" alt="Logo" />
+      <img className="logo" src="logo1.png" alt="Logo" />
 
       <div className="nav-a">
         <Link to="/">Home</Link>
